@@ -16,9 +16,9 @@ menu:
   About:
     url: /about
     icon: fas fa-user-circle
-  Contact:
-    url: /contact
-    icon: fas fa-comments
+  # Contact:
+  #   url: /contact
+  #   icon: fas fa-comments
   Friends:
     url: /friends
     icon: fas fa-address-book
@@ -55,17 +55,17 @@ time:
 cover:
   showPrevNext: true # 是否显示左右切换按钮. Whether to display the left and right toggle buttons.
   showIndicators: true # 是否显示指示器. # Whether to display the indicators
-  autoLoop: true # 是否自动轮播. Whether it is automatically rotated.
+  autoLoop: false # 是否自动轮播. Whether it is automatically rotated.
   duration: 120 # 切换延迟时间. Switching delay time.
   intervalTime: 5000 # 自动切换下一张的间隔时间. Automatically switch the interval of the next one.
-  useConfig: false # 是否使用配置文件, 在 _data/covers.json 下配置推荐文章, false则使用主题在文章中的配置 cover coverImg
+  # useConfig: false # 是否使用配置文件, 在 _data/covers.json 下配置推荐文章, false则使用主题在文章中的配置 cover coverImg
   # useConfig 使用方式: 将主题 hexo-theme-matery/source/_data/covers.json 移动到 my-blog/source/_data/下修改配置即可
 
 # index page dream text,
 # 配置首页显示"梦想"的语句.
 dream:
   enable: true
-  showTitle: true
+  showTitle: false
   title: 我的梦想
   text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
 
@@ -204,30 +204,29 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg
-  career: Software Engineer
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
-
+  career: 前端开发工程师
+  introduction: 精致的五官是心动的开始，迷人的气质是动情的深渊。
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
   enable: true
   data:
-    hexo-theme-matery:
+    vue-koa-study:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/blinkfox/hexo-theme-matery
-      desc: This is a Hexo blog theme with 'Material Design' and responsive design.
-    Fenix:
-        icon: fas fa-database
-        iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/blinkfox/fenix
-        desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
-    typora-vue-theme:
-        icon: fas fa-file-alt
-        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/blinkfox/typora-vue-theme
-        desc: This is a typora theme inspired by Vue document style.
+      url: http://github.com/realwds/vue-koa-study
+      desc: 
+    node-koa-study:
+      icon: fas fa-database
+      iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
+      url: https://github.com/realwds/node-koa-study
+      desc: 
+    super-single-page:
+      icon: fas fa-file-alt
+      iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+      url: https://github.com/realwds/super-single-page
+      desc: 
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -247,7 +246,7 @@ mySkills:
     CSS:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
       percent: 70%
-    SQL:
+    vue:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
       percent: 90%
     程序设计:
