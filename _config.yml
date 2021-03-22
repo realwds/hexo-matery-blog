@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: realwds's website
-subtitle: 'Alejandro'
-description: 'Delicate facial features are the beginning of the heart, charming temperament is the abyss of emotion.'
-keywords: 'wds,realdws,alejandro'
+title: 个人博客
+subtitle: '个人博客'
+description: '精致的五官是心动的开始，迷人的气质是动情的深渊。'
+keywords: 'hexo,wds，realdws，alejandro，博客'
 author: realwds
 language: zh-CN
 timezone: ''

@@ -349,7 +349,6 @@ changyan:
 githubLink:
   enable: true
   url: https://github.com/realwds
-  title: Fork Me
 
 # The configuration of the Twikoo comment module is not activated by default.
 # To use it, activate the configuration item and set envId.
@@ -539,8 +538,8 @@ addthis:
 # 打字效果副标题.
 # 如果有符号 ‘ ，请在 ’ 前面加上 \
 subtitle:
-  enable: true
-  loop: true # 是否循环
+  enable: false
+  loop: false # 是否循环
   showCursor: true # 是否显示光标
   startDelay: 300 # 开始延迟
   typeSpeed: 100 # 打字速度
