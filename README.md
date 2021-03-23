@@ -7,6 +7,8 @@
 - 增加 jsDelivr cdn
 - 增加 github action 持续集成
 - 修改背景及主题颜色
+- 增加 sitemap 网站地图
+- 改变 url 链接显示方式
 
 ## 安装使用（Installation）
 

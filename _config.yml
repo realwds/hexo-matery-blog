@@ -13,8 +13,12 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://realwds.github.io/hexo-blog
-permalink: :year/:month/:day/:title/
+url: https://realwds.github.io
+root: /hexo-blog
+permalink: posts/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink
+abbrlink:
+    alg: crc32   #算法： crc16(default) and crc32
+    rep: hex     #进制： dec(default) and hex 
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -108,11 +112,6 @@ deploy:
 search:
   path: search.xml
   field: post
-
-# 中文链接转拼音
-permalink_pinyin:
-  enable: true
-  separator: '-' # default: '-'
 
 # 文章字数统计插件
 postInfo:
