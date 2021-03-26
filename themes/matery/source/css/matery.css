@@ -255,11 +255,11 @@ mark {
 }
 
 .progress-bar {
-    height: 4px;
+    height: 3px;
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #ff5047 0%, #ff385c 100%);
     opacity: 0.8;
 }
 
