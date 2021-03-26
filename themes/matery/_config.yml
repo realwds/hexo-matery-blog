@@ -42,8 +42,8 @@ menu:
 # Website start time.
 # 站点运行开始时间.
 time:
-  enable: false
-  year: 2019 # 年份
+  enable: true
+  year: 2021 # 年份
   month: 06 # 月份
   date: 28 # 日期
   hour: 00 # 小时
@@ -316,15 +316,15 @@ livere:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: false
-  appId:
-  appKey:
+  enable: true
+  appId: JpAMMDMMI5jhA0WRmPa9CWTm-gzGzoHsz
+  appKey: VhWkvsjxzxf2l7tS0AFxWwto
   notify: false
   verify: false
   visitor: true
   avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   pageSize: 10
-  placeholder: 'just go go' # Comment Box placeholder
+  placeholder: '欢迎留言 \n评论功能以邮件作为通知方式 \n如有必要请填写正确邮箱' # Comment Box placeholder
   background: /medias/comment_bg.png
   coolpushkey: 
 
@@ -560,7 +560,7 @@ instantpage:
 # banner 是否每日切换.
 # 若为 false, 则 banner 默认为 /medias/banner/0.jpg
 banner:
-  enable: true
+  enable: false
 
 #ICP备案信息尾部显示
 icp:
