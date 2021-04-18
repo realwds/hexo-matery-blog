@@ -14,7 +14,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@4.0.0
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
-        repositoryName: realwds/hexo-blog
-        BRANCH: gh-pages
-        BUILD_SCRIPT: npm install hexo-cli -g && npm install && hexo clean && hexo d
-        FOLDER: public
+        repository-name: realwds/hexo-blog
+        branch: gh-pages
+        dry-run: npm install hexo-cli -g && npm install && hexo clean && hexo d
+        folder: public
