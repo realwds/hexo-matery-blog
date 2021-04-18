@@ -13,7 +13,8 @@ jobs:
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@4.0.0
       with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        token: ${{ secrets.ACCESS_TOKEN }}
+        repositoryName: realwds/hexo-blog
         BRANCH: gh-pages
-        FOLDER: ./public
         BUILD_SCRIPT: npm install hexo-cli -g && npm install && hexo clean && hexo d
+        FOLDER: public
