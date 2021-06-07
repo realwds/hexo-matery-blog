@@ -13,7 +13,7 @@
 ## 安装使用（Installation）
 
 ```shell
-git clone https://github.com/realwds/hexo-blog.git
+git clone https://github.com/realwds/hexo-matery-blog.git
 npm install hexo-cli -g
 npm install
 hexo s
