@@ -316,7 +316,7 @@ livere:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: true
+  enable: false
   appId: JpAMMDMMI5jhA0WRmPa9CWTm-gzGzoHsz
   appKey: VhWkvsjxzxf2l7tS0AFxWwto
   notify: false
@@ -391,7 +391,7 @@ baiduAnalytics:
   id:
 
 # 百度搜索资源平台提交链接
-baiduPush: true
+baiduPush: false
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.

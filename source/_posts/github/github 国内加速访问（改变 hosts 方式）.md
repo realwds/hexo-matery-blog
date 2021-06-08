@@ -3,7 +3,7 @@ title: github 国内加速访问（改变 hosts 方式）
 author: reralwds
 img: /medias/featureimages/3.jpg
 top: true
-toc: false
+# toc: false
 categories: github
 tags:
   - github
@@ -11,9 +11,9 @@ abbrlink: 9bcea011
 date: 2021-03-25 00:00:00
 ---
 
-一、访问链接 https://www.ipaddress.com/ip-lookup
+## 一、访问链接 https://www.ipaddress.com/ip-lookup
 
-二、分别查询以下 5 个链接 对应的 IP 地址，查询一个之后，在下面的 “Perform another IP Lookup” 框里可以继续查询。
+## 二、分别查询以下 5 个链接 对应的 IP 地址，查询一个之后，在下面的 “Perform another IP Lookup” 框里可以继续查询。
 
 ```bash
 github.com
@@ -32,7 +32,7 @@ ping 185.199.110.153
 ping 185.199.111.153
 ```
 
-三、修改 hosts 文件，添加内容（因为每个人网络环境不同，请自行采用本地查询结果，不要直接复制 ！！！）
+## 三、修改 hosts 文件，添加内容（因为每个人网络环境不同，请自行采用本地查询结果，不要直接复制 ！！！）
 
 ```bash
 140.82.114.4 github.com
@@ -65,12 +65,12 @@ mac/linux 系统的 hosts 文件的位置如下：
 /etc/hosts
 ```
 
-四、cmd 运行以下代码刷新 DNS 。
+## 四、cmd 运行以下代码刷新 DNS 。
 
 ```bash
 ipconfig /flushdns
 ```
 
-五、打开 Github 进行测试，成功！
+## 五、打开 Github 进行测试，成功！
 
 重新访问 github ，搞定！！！
