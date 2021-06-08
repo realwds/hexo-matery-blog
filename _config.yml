@@ -106,7 +106,9 @@ theme: matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:realwds/hexo-matery-blog.git # 推送到仓库
+  branch: gh-pages
 
 # 搜索
 search:
